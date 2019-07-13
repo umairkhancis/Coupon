@@ -1,0 +1,48 @@
+#Internal libraries
+
+#built application files
+*.apk
+*.ap_
+*.exec
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea
+*.iml
+.idea/*.xml
+
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+
+# Fabric/Crashlytics
+app/fabric.properties
+
+app/src/main/res/xml/network_security_config.xml
+
+[rebase]
+    autosquash = true
+
+# please don't change this file without discussing it with every one.
